@@ -1,13 +1,15 @@
 import { expect, it } from "vitest";
 
+// Create an Interface
 interface addNumberProps {
   first: number;
   second: number;
 }
 
-// These commented solutions can also work
+// Named Type
 // type NewType = { first: number; second: number };
 
+// Pass an Object Type Directly
 // export const addTwoNumbers = (params: { first: number; second: number }) => {
 //   return params.first + params.second;
 // };
